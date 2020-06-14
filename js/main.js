@@ -12,4 +12,12 @@ $(function () {
       },
     ],
   });
+
+  let headerItem = $('.menu__list-item');
+
+  headerItem.on('click', function (event) {
+    event.preventDefault();
+    $('.menu__list-link--active').toggleClass('menu__list-link--active');
+    $(this).toggleClass('menu__list-link--active');
+  });
 });

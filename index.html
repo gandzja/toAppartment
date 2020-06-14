@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Condensed&display=swap&subset=cyrillic" rel="stylesheet" />
@@ -20,7 +20,8 @@
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__list-item">
-            <a href="#" class="menu__list-link menu__list-link--active">О нас</a>
+            <!-- добавить еще один класс ждя интерактивности menu__list-link--active -->
+            <a href="#" class="menu__list-link">О нас</a>
           </li>
           <li class="menu__list-item">
             <a href="#" class="menu__list-link">Дома</a>
@@ -198,10 +199,7 @@
               </ul>
             </nav>
             <form class="footer__form">
-              <label for="footerForm" class="footer__form-label"
-                >Связаться <br />
-                с нами</label
-              >
+              <label for="footerForm" class="footer__form-label">Связаться с нами</label>
               <input class="footer__form-input" type="text" placeholder="Задать вопрос" id="footerForm" />
               <button class="footer__form-btn btn" type="submit">Отправить</button>
             </form>
